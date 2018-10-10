@@ -12,6 +12,7 @@
 		BF50EEA6216D75FB00D3ACDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF50EEA4216D75FB00D3ACDB /* Main.storyboard */; };
 		BF50EEA8216D75FD00D3ACDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF50EEA7216D75FD00D3ACDB /* Assets.xcassets */; };
 		BF50EEAB216D75FD00D3ACDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF50EEA9216D75FD00D3ACDB /* LaunchScreen.storyboard */; };
+		BF50EEB3216D827C00D3ACDB /* icons8-skateboard-truck-500.png in Resources */ = {isa = PBXBuildFile; fileRef = BF50EEB2216D827C00D3ACDB /* icons8-skateboard-truck-500.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF50EEA7216D75FD00D3ACDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF50EEAA216D75FD00D3ACDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF50EEAC216D75FD00D3ACDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF50EEB2216D827C00D3ACDB /* icons8-skateboard-truck-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-skateboard-truck-500.png"; path = "Assets.xcassets/icons8-skateboard-truck-500.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BF50EEA2216D75FB00D3ACDB /* ViewController.swift */,
 				BF50EEA4216D75FB00D3ACDB /* Main.storyboard */,
 				BF50EEA7216D75FD00D3ACDB /* Assets.xcassets */,
+				BF50EEB2216D827C00D3ACDB /* icons8-skateboard-truck-500.png */,
 				BF50EEA9216D75FD00D3ACDB /* LaunchScreen.storyboard */,
 				BF50EEAC216D75FD00D3ACDB /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 				BF50EEAB216D75FD00D3ACDB /* LaunchScreen.storyboard in Resources */,
 				BF50EEA8216D75FD00D3ACDB /* Assets.xcassets in Resources */,
 				BF50EEA6216D75FB00D3ACDB /* Main.storyboard in Resources */,
+				BF50EEB3216D827C00D3ACDB /* icons8-skateboard-truck-500.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SP8GM5K6M9;
 				INFOPLIST_FILE = Skate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwhisnant.Skate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SP8GM5K6M9;
 				INFOPLIST_FILE = Skate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwhisnant.Skate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
