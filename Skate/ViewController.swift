@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         generateRandomTrick()
     }
     
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        generateRandomTrick()
+    }
     func generateRandomTrick() {
        randomIndex = Int.random(in: 0 ... 52)
         
